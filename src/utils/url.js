@@ -40,7 +40,7 @@ function capitalize(string){
 
 // Hard code paths
 function hcpaths(args = 'dir'){
-    const sourcedir = "tokenclouds/data/";
+    const sourcedir = "tokenclouds/";
     const lemmas_register = 'euclidean_register.tsv'; // For posIndex.html line 83
     if (args === 'dir') {
         return(sourcedir);
